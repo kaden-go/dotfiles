@@ -1,4 +1,5 @@
-require('./config/options')
-require('./config/keybinds')
-require('./config/lazy') 
-
+-- base config
+require("config")
+-- custom config for each plugin
+require("after.plugins.telescope")
+require("after.plugins.treesitter")
